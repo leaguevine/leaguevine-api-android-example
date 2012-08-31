@@ -1,0 +1,5 @@
+This is a simple example for demonstrating how to use the Leaguevine API in Android. The important part is in src/AuthWebView and src/ButtonsActivity.
+
+The ButtonsActivity has buttons for increasing/decreasing a game score, and a button to connect to Leaguevine. Pressing the connect button will check to see if the user is authenticated and has a token. If not it opens the AuthWebView to allow the user to log in and get the token. If a token exists, then the up/down buttons will update the score of the given game.
+
+Note that this is NOT meant to be a completely functional example at the moment. The purpose is to demonstrate 1) the login process and 2) making a simple request. It is up to the developer to use these examples as starting points for their own application and use the thorough documentation for each call on Leaguevine's API section to create their own application.
