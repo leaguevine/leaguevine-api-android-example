@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1" 
+          android:layout_width="fill_parent" 
+          android:layout_height="fill_parent"  >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/btn_startstop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ConnectToLeaguevine"
+            android:src="@drawable/button_startstop" />
+
+        <ImageView
+            android:id="@+id/btn_left_up"
+            android:onClick="LeftUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_left_up" />
+
+        <ImageView
+            android:id="@+id/btn_right_up"
+            android:onClick="RightUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_right_up" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/btn_reset"
+            android:onClick="Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_reset" />
+
+        <ImageView
+            android:id="@+id/btn_left_down"
+            android:onClick="LeftDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_left_down" />
+
+        <ImageView
+            android:id="@+id/btn_right_down"
+            android:onClick="RightDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_right_down" />
+
+    </TableRow>
+</TableLayout>
